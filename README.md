@@ -1,7 +1,32 @@
-A breast cancer prediction project is a machine learning model that is trained to predict the likelihood that a person will develop breast cancer based on certain characteristics or risk factors. These characteristics could include things like age, family history, reproductive history, and hormone use, as well as genetic mutations that have been associated with an increased risk of breast cancer.
+## LIVE DEMO : [Heruko App](https://breast-cancer-11.herokuapp.com/)
 
-To build a breast cancer prediction model, you would need to gather a large dataset of individuals who have been diagnosed with breast cancer and a control group of individuals who have not been diagnosed with the disease. You would then use this dataset to train a machine learning model to identify patterns or features that are associated with an increased risk of breast cancer.
+## Tech Stack
+ - Sci-kit
+ - Flask (Backend)
+ - Gunicorn Server
+ - Heroku (PaaS)
 
-Once the model has been trained, you can then use it to predict the likelihood of breast cancer in new individuals, based on their characteristics or risk factors. This can help doctors identify individuals who may be at an increased risk of developing breast cancer, so that they can take steps to monitor their health more closely or recommend preventative measures.
+## Model Training
+  I have added a detailed notes on the training and inference model in this [repository](https://github.com/sachin778899/Breast-Cancer-Prediction).
+> In this repo, I will only have instructions to build front end and deploy.
 
-It's important to note that a breast cancer prediction model is not a perfect tool, and it should not be used to make a definitive diagnosis of breast cancer. Instead, it is intended to help identify individuals who may be at an increased risk of the disease, so that they can undergo further testing or monitoring.
+
+## Instruction
+#### To run locally,
+1. Clone this repository with ```git clone```.
+2. Open a terminal inside the project directory.
+3. Install dependencies using ```pip install -r requirements.txt```
+4. Run python app.py to open the app on ```localhost:8000```.
+
+#### To Deploy on Heroku,
+
+> Make sure you have all the requirements in requirements.py
+
+```I assume you have already created heroku account and Heroku CLI on your machine```.
+
+1. Open a terminal on the project directory and create a heroku application.
+2. And deploye the project in that Heroku application.
+3. Then it will generate link on Heroku application.
+
+Now you are all set to go, deploy with a single command ```git push heroku master```.
+
